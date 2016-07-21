@@ -40,7 +40,7 @@ c. If you forget to type port number, you will be asked to enter a port number<b
 
 CLIENT SIDE:<br />
 (1) Open second terminal that will be used as a client.<br />
-(2) Type: python chatclient.py <IP address> <portNumber><br />
+(2) Type: python chatclient.py IP address portNumber<br />
 a. <IP address> is the address that you found by typing hostname –i in the server terminal<br />
 b. <portNumber> is the same port used by the server<br />
 (3) You will be prompted to enter a username<br />
