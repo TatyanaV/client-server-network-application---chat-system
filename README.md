@@ -9,20 +9,20 @@ OBJECTIVE:
 4. Refresh programming skills
 
 #PROGRAM REQUIREMENTS:
-Design and implement a simple chat system that works for one pair of users, i.e., create two programs: a chat server and a chat client. The final version of your programs must accomplish the following tasks:
-1. chatserve starts on host A.
-2. chatserve on host A waits on a port (specified by command-line) for a client request.
-3. chatclient starts on host B, specifying host A’s hostname and port number on the command line.
-4. chatclient on host B gets the user’s “handle” by initial query (a one-word name, up to 10 characters).
- chatclient will display this handle as a prompt on host B, and will prepend it to all messages sent to host A. e.g., “ SteveO> Hi!!”
-5. chatclient on host B sends an initial message to chatserve on host A : PORTNUM. 
-This causes a connection to be established between Host A and Host B. Host A and host B are now peers, and may alternate 
-sending and receiving messages. Responses from host A should have host A’s “handle” prepended.
-6. Host A responds to Host B, or closes the connection with the command “\quit”
-7. Host B responds to Host A, or closes the connection with the command “\quit”
-8. If the connection is not closed, repeat from 6.
-9. If the connection is closed, chatserve repeats from 2 (until a SIGINT is received).
-
+Design and implement a simple chat system that works for one pair of users, i.e., create two programs: a chat server and a chat client.<br /> The final version of your programs must accomplish the following tasks:<br />
+1. chatserve starts on host A.<br />
+2. chatserve on host A waits on a port (specified by command-line) for a client request.<br />
+3. chatclient starts on host B, specifying host A’s hostname and port number on the command line.<br />
+4. chatclient on host B gets the user’s “handle” by initial query (a one-word name, up to 10 characters).<br />
+ chatclient will display this handle as a prompt on host B, and will prepend it to all messages sent to host A. e.g., “ SteveO> Hi!!”<br />
+5. chatclient on host B sends an initial message to chatserve on host A : PORTNUM. <br />
+This causes a connection to be established between Host A and Host B. Host A and host B are now peers, and may alternate <br />
+sending and receiving messages. Responses from host A should have host A’s “handle” prepended.<br />
+6. Host A responds to Host B, or closes the connection with the command “\quit”<br />
+7. Host B responds to Host A, or closes the connection with the command “\quit”<br />
+8. If the connection is not closed, repeat from 6.<br />
+9. If the connection is closed, chatserve repeats from 2 (until a SIGINT is received).<br />
+<br />
 # IMPLEMENTATION
 SERVER SIDE:
 
