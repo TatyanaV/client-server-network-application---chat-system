@@ -8,7 +8,7 @@ OBJECTIVE:
 3. Use the TCP protocol
 4. Refresh programming skills
 
-PROGRAM:
+#PROGRAM REQUIREMENTS:
 Design and implement a simple chat system that works for one pair of users, i.e., create two programs: a chat server and a chat client. The final version of your programs must accomplish the following tasks:
 1. chatserve starts on host A.
 2. chatserve on host A waits on a port (specified by command-line) for a client request.
@@ -23,6 +23,7 @@ sending and receiving messages. Responses from host A should have host A’s “
 8. If the connection is not closed, repeat from 6.
 9. If the connection is closed, chatserve repeats from 2 (until a SIGINT is received).
 
+# IMPLEMENTATION
 SERVER SIDE:
 
 (1) Open a terminal that will be your server terminal.
