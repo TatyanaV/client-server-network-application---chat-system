@@ -23,7 +23,7 @@ sending and receiving messages. Responses from host A should have host A’s “
 8. If the connection is not closed, repeat from 6.<br />
 9. If the connection is closed, chatserve repeats from 2 (until a SIGINT is received).<br />
 <br />
-# IMPLEMENTATION
+# HOW TO RUN A PROGRAM:
 SERVER SIDE:<br />
 
 (1) Open a terminal that will be your server terminal.<br /><br />
