@@ -1,7 +1,4 @@
 # 	Name:  Tatyana Vlaskin +References
-#	email: vlaskint@oregonstate.edu
-# 	Class:CS372
-#	Assignment: Project #1
 # 	Program: chatclient.py
 #	Description:
 # 	This program performs the client side of a chat program. Program is started when the client

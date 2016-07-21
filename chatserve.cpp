@@ -1,8 +1,5 @@
 /*
 # 	Name:  Tatyana Vlaskin + references
-#	email: vlaskint@oregonstate.edu
-# 	Class:CS372
-#	Assignment: Project #1
 # 	Program: chatserve.cpp
 #	Description:
 # 	This program performs the server side of a chat program. Program is started when the server
